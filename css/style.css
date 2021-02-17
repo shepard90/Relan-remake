@@ -1,0 +1,96 @@
+body {
+  margin-top: 0;
+  background-color: #fff;
+}
+
+/* Navigation Bar >> bootstrap navbar */
+.logo {
+  margin-left: 70px;
+  z-index: 99;
+}
+
+.navbar {
+  height: 100px;
+  font-size: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-nav {
+  margin-right: 70px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 4px;
+}
+
+.navbar-nav > li {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.nav-item:hover {
+
+}
+
+/* Section 1 >> Carousel, captions */
+.sec1 {
+  height: 50vw;
+  overflow: hidden;
+}
+
+.mainCaption {
+  font-size: 70px;
+  z-index: 999;
+}
+
+.descCaption {
+  font-size: 20px;
+}
+
+.carousel-item {
+  height: 46vw;
+}
+
+.carousel-indicators {
+  bottom: 10rem;
+}
+
+.carousel-indicators > li {
+  width: 70px;
+}
+
+.d-block {
+  filter: brightness(50%);
+  z-index: 1;
+}
+
+/* Section 2 */
+
+.sec2 {
+  height: 46vw;
+  color: #000;
+}
+
+.bigLogo{
+  padding-top: 15px;
+  display: block;
+  height: 150px;
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.lorem {
+  text-align: center;
+  padding-top: 70px;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 25px;
+}
+
+.row {
+  color: #1a4578;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 3vw;
+  margin-left: 100px;
+  margin-right: 100px;
+}
