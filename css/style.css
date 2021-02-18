@@ -110,9 +110,14 @@ hr{
 }
 
 .perk {
+  transition: 0.5s;
   max-width: 250px;
+  margin: 0 auto;
 }
 
+.perkglow {
+  filter: brightness(1.8);
+}
 /* SECTION 3 */
 
 .sec3 {
@@ -133,5 +138,10 @@ hr{
   max-width: 250px;
   margin: 0 auto;
   margin-bottom: 50px;
+  transition: 1s;
+}
 
+.cardglow {
+  transform: scale(1.2);
+  cursor: pointer;
 }
