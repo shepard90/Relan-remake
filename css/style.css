@@ -65,24 +65,33 @@ body {
 /* Section 2 */
 
 .sec2 {
-  height: 46vw;
   color: #000;
+  overflow: visible;
 }
 
 .bigLogo{
   padding-top: 15px;
   display: block;
-  height: 150px;
+  height: 250px;
   width: 50vw;
   margin: 0 auto;
+  padding-bottom: 70px;
 }
 
-.lorem {
+.description {
   text-align: center;
-  padding-top: 70px;
   width: 80%;
   margin: 0 auto;
   font-size: 25px;
+}
+
+.description > ul {
+  line-height: 50px;
+}
+hr{
+  border-top: 4px solid #1a4578;
+  width: 300px;
+  margin: 70px auto;
 }
 
 .row {
@@ -93,4 +102,15 @@ body {
   padding-top: 3vw;
   margin-left: 100px;
   margin-right: 100px;
+}
+
+.perk {
+  max-width: 250px;
+}
+
+/* SECTION 3 */
+
+.sec3 {
+  background-color: #1a4578;
+  color: #fff;
 }
