@@ -102,6 +102,7 @@ hr{
   color: #1a4578;
   font-weight: bold;
   font-size: 24px;
+  align-items: center;
   text-align: center;
   padding-top: 3vw;
   margin-left: 100px;
@@ -124,4 +125,13 @@ hr{
   height: 25px;
   padding-right: 20px;
   margin-left: 40px;
+}
+
+/* SECTION 4 */
+
+.card {
+  max-width: 250px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+
 }
